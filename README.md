@@ -39,11 +39,3 @@ Start the server
 
 
 
-## Screenshots 
-
-![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss1.PNG?raw=true)
-
-![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss2.PNG?raw=true)
-
-![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss3.PNG?raw=true)
-
