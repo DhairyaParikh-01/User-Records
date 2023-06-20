@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React,{ useState } from 'react';
+import Home from './Components/Home';
+import Alert from './Components/Alert';
 
 function App() {
+  const [alert, setAlert] = useState(null); // useState for alert 
+  const showAlert = (type, strong, message)=>{ // showAlert() method for populating 'alert'. params given through Alert props
+    setAlert({
+      type: type,
+      strong: strong,
+      message: message
+    })
+    setTimeout(() => { // setTimeout() function for killing alert after particular point of time
+      setAlert(null);
+    }, 1500);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Alert alert={alert}/>
+        <Home showAlert={showAlert}/>
     </div>
   );
 }
