@@ -41,9 +41,9 @@ Start the server
 
 ## Screenshots 
 
-![App Screenshot](public\ss1.PNG)
+![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss1.PNG?raw=true)
 
-![App Screenshot](public\ss2.PNG)
+![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss2.PNG?raw=true)
 
-![App Screenshot](public\ss3.PNG)
+![App Screenshot](https://github.com/DhairyaParikh-01/User-Records/blob/main/public/ss3.PNG?raw=true)
 
